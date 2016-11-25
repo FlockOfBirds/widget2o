@@ -5,7 +5,6 @@ Use the experimental API for widget 2.0
 ## Features
 
 * Receive all modeler props in a component.
-
 * Typescript
 * React components
 * Webpack bundling
@@ -23,8 +22,9 @@ Use the experimental API for widget 2.0
 ### Installation
 
 * Install node.js
-* Install globally https://www.npmjs.com/package/istanbul
-* Install the binaries for xsltproc http://xmlsoft.org/XSLT/xsltproc2.html
+* Install globally https://www.npmjs.com/package/istanbul (Different for each OS)
+* Install globally webpack `npm install -g webpack `
+* Install the binaries for xsltproc http://xmlsoft.org/XSLT/xsltproc2.html (Different for each OS)
 * Install this source code development with `npm install` from the source code.
 
 ### Develop
