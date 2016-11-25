@@ -65,9 +65,9 @@ module.exports = function (grunt) {
                 "./dist/" + pkg.version + "/*",
                 "./dist/MxTestProject/deployment/web/widgets/" + pkg.name + "/*",
                 "./dist/MxTestProject/widgets/" + pkg.name + ".mpk",
-                "./tsc/**/*"
-            ], 
-            dist : [ "./dist/**/*", "!./dist/MxTestProject/*" ]
+                "./dist/tsc/**/*",
+                "./dist/tmp/**/*"
+            ]
         },
 
         xsltproc: {
