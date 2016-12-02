@@ -1,6 +1,7 @@
 import { createElement } from "react";
 
 import { Awesome } from "./components/Awesome";
+import "./ui/OtherStyle.scss";
 import "./ui/SomeStyle.less";
 import "./ui/Widget2o.css";
 
